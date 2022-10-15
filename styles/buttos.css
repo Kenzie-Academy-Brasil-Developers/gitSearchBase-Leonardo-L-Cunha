@@ -1,0 +1,43 @@
+.btn-home {
+    background-color: var(--color-brand-1);
+    border: transparent;
+    border-radius: 4px;
+    color: var(--color-grey-7);
+    padding: 10px 93px;
+    cursor: pointer;
+}
+
+.btn-home:disabled {
+    background: rgba(214, 51, 108, 0.4);
+}
+
+.btn-mail {
+    background-color: var(--color-brand-1);
+    border-radius: 8px;
+    color: var(--color-grey-7);
+    padding: 17px;
+    border: transparent;
+}
+
+.btn-swt {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 17px;
+    color: var(--color-grey-7);
+    border-radius: 8px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.load {
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

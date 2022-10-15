@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Git Search</title>
-  </head>
-  <body>
-    <main></main>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/globalStyles.css" />
+  <link rel="stylesheet" href="/styles/buttos.css" />
+  <link rel="stylesheet" href="/styles/input.css" />
+  <link rel="stylesheet" href="/styles/texts.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Git Search</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="login-descript">
+      <div class="texts-descript">
+        <h1 class="title-1">Git Search</h1>
+        <p class="text-1">Encontre e se conecte com profissionais de forma rápida e fácil </p>
+        <span class="text-2">Achados Recentemente:</span>
+      </div>
+    </section>
+    <section class="login-input">
+      <div class="texts-input">
+        <h2 class="text-1">Procurar por um usuário</h2>
+        <form class="form-login">
+          <label class="texts-form" name="user" for="">Usuário github</label>
+          <input onchange="dataInput()" required="true" id="input" class="input-form texts-form" name="user"
+            placeholder="Digite um usuário do github aqui..." type="text">
+          <span id="red" class="red">Usuario nao encontrado</span>
+          <button id="btn-sub" class="btn-home" type="submit">Ver perfil do github</button>
+        </form>
+      </div>
+    </section>
+    <img src="/src/img/icons8-loading-30.png" alt="">
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root{
     --color-brand-1: #C2255C;
@@ -14,4 +15,10 @@
     --color-grey-6:  #A6A8A9;
     --color-grey-7:  #FFFFFF;
     --color-alert:   #C22554;
+
+    --line-height: 150%;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
 }

@@ -1,1 +1,49 @@
-/* Desenvolva sua estilização aqui...*/
+.container {
+    display: flex;
+
+}
+
+.login-descript{
+    width: 45%;
+    height: 100vh;
+    background-color: var(--color-brand-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-input{
+    width: 55%;
+    height: 100vh;
+    background-color: var(--color-grey-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texts-descript{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.texts-input{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.red{
+    color: red;
+    display: none;
+}
+.red-show{
+    display: flex;
+}
