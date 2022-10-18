@@ -1,5 +1,6 @@
-const users = localStorage.getItem("users")
+const users = localStorage.getItem("user")
 let user = JSON.parse(users)
+console.log(user)
 
 
 function HeadPrifole() {
